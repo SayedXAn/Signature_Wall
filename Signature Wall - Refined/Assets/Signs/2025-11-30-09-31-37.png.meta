@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: aaa245dd353dc5d4eb348d229c4e7e0a
+guid: 45a108f80dd5202448c539fb5b3ac04d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6352518720263840713
-    second: Asset 3@2x_0
+      213: 4419219832399851350
+    second: 2025-11-30-09-31-37_0
+  - first:
+      213: 3138022501799462345
+    second: 2025-11-30-09-31-37_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,10 +75,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asset 3@2x_0
+      name: 2025-11-30-09-31-37_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3841
-        height: 2162
+        x: 570
+        y: 298
+        width: 1236
+        height: 494
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c368567e1ea82850800000000000000
-      internalID: 6352518720263840713
+      spriteID: 65fed860609345d30800000000000000
+      internalID: 4419219832399851350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2025-11-30-09-31-37_1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 766
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c580f4e6de7c8b20800000000000000
+      internalID: 3138022501799462345
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Asset 3@2x_0: 6352518720263840713
+      2025-11-30-09-31-37_0: 4419219832399851350
+      2025-11-30-09-31-37_1: 3138022501799462345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
