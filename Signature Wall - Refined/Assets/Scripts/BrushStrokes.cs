@@ -15,7 +15,40 @@ public class BrushStrokes : MonoBehaviour
 
     void Start()
     {
+        LoadPreviousSigns();
     }
+
+    void LoadPreviousSigns()
+    {
+        string folderPath = GameManager.Instance.SignStoreDir;
+
+        if (!Directory.Exists(folderPath))
+        {
+            Directory.CreateDirectory(folderPath);
+            return;
+        }
+
+        string[] files = Directory.GetFiles(folderPath, "*.png");
+
+        if (files.Length == 0)
+        {
+            Debug.Log("No previous signs found.");
+            return;
+        }
+
+        foreach (string file in files)
+        {
+            byte[] bytes = File.ReadAllBytes(file);
+            Texture2D texture = new Texture2D(2, 2);
+            texture.LoadImage(bytes);
+
+            // Display the image on Screen 2 (or wherever you normally show)
+            GameManager.Instance.ShowSign(texture);
+
+            Debug.Log("Loaded previous sign: " + file);
+        }
+    }
+
 
     public void OnMouseDown()
     {
